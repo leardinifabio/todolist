@@ -1,4 +1,4 @@
-header {
+.headerComponentContainer {
   background: var(--gray-700);
   height: 200px;
 }

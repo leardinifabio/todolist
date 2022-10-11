@@ -1,18 +1,63 @@
-.taskContainer {
-  display: flex;
-  justify-content: space-between;
-  margin: 4rem auto 0;
-  background: transparent;
+.container {
   max-width: 736px;
   width: 100%;
+  margin: 4rem auto 0;
 }
 
-.taskContainer span {
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+}
+
+.headerContainer h5 {
   font-size: 87.5%;
   font-weight: 700;
   color: var(--blue-400);
 }
 
-.taskContainer span:nth-child(2n) {
+.headerContainer h5:nth-child(2n) {
   color: var(--purple-400);
+}
+
+.headerContainer span {
+  border-radius: 0.5rem;
+  padding: 0.015rem 0.25rem;
+  margin-left: 0.25rem;
+  font-size: 75%;
+  color: var(--gray-200);
+  background: var(--gray-400);
+}
+
+.tasksContainer {
+  margin-top: 1.5rem;
+}
+
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 0.5rem;
+  padding: 4rem 1.4rem;
+}
+
+.emptyContainer::hidden {
+  display: none;
+}
+
+.emptyContainer span:first-of-type {
+  font-weight: 700;
+  color: var(--gray-300);
+  margin-top: 1rem;
+}
+
+.emptyContainer span:last-of-type {
+  color: var(--gray-300);
+  margin-top: 0.1rem;
+}
+
+.clipeBoardText {
+  color: red;
 }

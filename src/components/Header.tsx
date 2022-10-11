@@ -3,7 +3,7 @@ import style from "./Header.module.css";
 export function Header() {
   return (
     <div>
-      <header>
+      <header className={style.headerComponentContainer}>
         <div className={style.logoToDo}>
           <img src="../public/rocket.svg" />
           <h1>
