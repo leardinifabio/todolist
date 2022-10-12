@@ -12,3 +12,21 @@
 .taskBox span {
   margin: 0 1.5rem;
 }
+
+.trashButton {
+  color: var(--gray-300);
+  cursor: pointer;
+}
+
+.trashButton:hover {
+  color: var(--red);
+}
+
+.circleButton {
+  color: var(--blue-400);
+  cursor: pointer;
+}
+
+.circleButton:hover {
+  color: var(--purple-400);
+}
