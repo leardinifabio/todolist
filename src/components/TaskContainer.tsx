@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ClipboardText } from "phosphor-react";
+import { Task } from "./Task";
 import style from "./TaskContainer.module.css";
 
 interface Task {
@@ -10,9 +11,9 @@ interface Task {
 
 export function TaskContainer() {
   const [tasks, setTasks] = useState<Task[]>([
-    /* { id: 1, content: "Task 1", isNotCompleted: false },
+    { id: 1, content: "Task 1", isNotCompleted: false },
     { id: 2, content: "Task 2", isNotCompleted: false },
-    { id: 3, content: "Task 3", isNotCompleted: false }, */
+    { id: 3, content: "Task 3", isNotCompleted: false },
   ]);
 
   const isCompleted = tasks.filter(
@@ -37,7 +38,7 @@ export function TaskContainer() {
             <span>Crie tarefas e organize seus itens a fazer</span>
           </div>
         ) : (
-          <div></div>
+          <Task />
         )}
       </main>
     </div>

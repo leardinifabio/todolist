@@ -1,0 +1,14 @@
+.taskBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  background: var(--gray-500);
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.taskBox span {
+  margin: 0 1.5rem;
+}
