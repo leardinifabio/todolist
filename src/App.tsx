@@ -1,4 +1,3 @@
-import { Header } from "./components/Header";
 import { TaskContainer } from "./components/TaskContainer";
 import "./global.css";
 import "./App.css";
@@ -6,7 +5,14 @@ import "./App.css";
 export function App() {
   return (
     <div className="mainContainer">
-      <Header />
+      <header>
+        <div className="logoToDo">
+          <img src="../public/rocket.svg" />
+          <h1>
+            to<span>do</span>
+          </h1>
+        </div>
+      </header>
       <TaskContainer />
     </div>
   );

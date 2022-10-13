@@ -10,7 +10,17 @@
 }
 
 .taskBox span {
+  font-size: 87.5%;
   margin: 0 1.5rem;
+}
+
+.isNotCompleted {
+  color: var(--gray-100);
+}
+
+.completed {
+  color: var(--gray-300);
+  text-decoration-line: line-through;
 }
 
 .trashButton {
