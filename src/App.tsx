@@ -7,7 +7,7 @@ export function App() {
     <div className="mainContainer">
       <header>
         <div className="logoToDo">
-          <img src="../public/rocket.svg" />
+          <img src="public/rocket.svg" />
           <h1>
             to<span>do</span>
           </h1>
