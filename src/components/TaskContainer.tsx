@@ -55,6 +55,7 @@ export function TaskContainer() {
             placeholder="Adicione uma nova tarefa"
             value={newTask}
             onChange={handleNewTaskChange}
+            required
           />
           <button type="submit">
             Criar <span>+</span>
