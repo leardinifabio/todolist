@@ -27,7 +27,6 @@ export function Task({
 }: TaskProps) {
   function handleDeleteComment() {
     onDeleteComment(id);
-    console.log(id);
   }
 
   function handleFinishTask() {

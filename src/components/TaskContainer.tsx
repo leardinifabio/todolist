@@ -84,6 +84,7 @@ export function TaskContainer() {
           tasks.map((task) => {
             return (
               <Task
+                key={task.id}
                 id={task.id}
                 content={task.content}
                 isNotCompleted={task.isNotCompleted}
