@@ -2,7 +2,7 @@
   "name": "todolist",
   "private": true,
   "version": "0.0.0",
-  "homepage": "todolist/",
+  "homepage": "todolist",
   "type": "module",
   "scripts": {
     "dev": "vite",
